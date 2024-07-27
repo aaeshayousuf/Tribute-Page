@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+  }
+  main {
+    background-color: rgb(235, 223, 200);
+    color: rgb(44, 43, 43);
+  }
+  .main-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    text-align: center;
+    line-height: 15px;
+    margin-top: 20px;
+  }
+  .header h1 {
+    font-size: 50px;
+  }
+  .header p {
+    font-style: italic;
+  }
+  .img-caption {
+    background-color: rgb(255, 253, 253, 0.1);
+    align-self: center;
+    text-align: center;
+    width: 1100px;
+    border: 2px whitesmoke solid;
+    padding: 5px 0 10px 0;
+  }
+  img {
+    width: 500px;
+  }
+  .caption {
+    font-style: italic;
+  }
+  
+  .biography-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .biography {
+    max-width: 1100px;
+    align-self: center;
+  }
+  .biography h2 {
+    font-size: 29px;
+  }
+  .biography-info {
+    line-height: 25px;
+  }
+  .biography-container p {
+    align-self: center;
+    color: rgb(171, 133, 86);
+  }
+  .link {
+    text-decoration: none;
+    color: rgb(56, 56, 174);
+  }
+  footer {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(71, 69, 69);
+  }
+  .name {
+    color: rgb(56, 56, 174);
+  }
